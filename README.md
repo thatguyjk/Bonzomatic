@@ -1,9 +1,8 @@
 # Bonzomatic
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Gargaj/Bonzomatic/build-on-push?logo=github)](https://github.com/Gargaj/Bonzomatic/actions)
+[![Github workflow status](https://github.com/Gargaj/Bonzomatic/actions/workflows/main.yml/badge.svg)](https://github.com/Gargaj/Bonzomatic/actions/workflows/main.yml)
 [![Appveyor build status](https://ci.appveyor.com/api/projects/status/ix6fwi6nym1tu4e7?svg=true)](https://ci.appveyor.com/project/Gargaj/bonzomatic)
 [![Travis build status](https://img.shields.io/travis/Gargaj/Bonzomatic?logo=travis)](https://travis-ci.org/Gargaj/Bonzomatic)
-[![Gitter chat](https://badges.gitter.im/Gargaj/Bonzomatic.svg)](https://gitter.im/Gargaj/Bonzomatic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## What's this?
 This is a live-coding tool, where you can write a 2D fragment/pixel shader while it is running in the background.
@@ -12,9 +11,13 @@ This is a live-coding tool, where you can write a 2D fragment/pixel shader while
 
 The tool was originally conceived and implemented after the Revision 2014 demoscene party's live coding competition where two contestants improv-code an effect in 25 minutes head-to-head. Wanna see how it looks in action? Check https://www.youtube.com/watch?v=KG_2q4OEhKc
 
+## Where to get? / Binary builds
+Fresh builds of Bonzomatic will always be available at https://github.com/Gargaj/Bonzomatic/releases
+
 ## Keys
 - F2: toggle texture preview
 - F5 or Ctrl-R: recompile shader
+- Ctrl-[/]: adjust text background transparency
 - F11 or Ctrl/Cmd-f: hide shader overlay
 - Alt-F4 or Shift+Escape: exbobolate your planet
 
@@ -175,4 +178,4 @@ The remainder of this project code was (mostly, I guess) written by Gargaj / Con
 OSX / macOS maintenance and ports by Alkama / Tpolm + Calodox; Linux maintenance by PoroCYon / K2.
 
 ## Contact / discussion forum
-If you have anything to say, do it at https://www.pouet.net/topic.php?which=9881 or [![Join the chat at https://gitter.im/Gargaj/Bonzomatic](https://badges.gitter.im/Gargaj/Bonzomatic.svg)](https://gitter.im/Gargaj/Bonzomatic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+If you have anything to say, do it at https://www.pouet.net/topic.php?which=9881
